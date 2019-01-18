@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F2109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Copyright (c) 2017 CastiGators" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ov-vJ-HTf">
+                    <rect key="frame" x="40" y="402" width="401" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="DzT-1n-ORw"/>
+                        <constraint firstAttribute="width" constant="401" id="j6t-62-V14"/>
+                        <constraint firstAttribute="height" constant="32" id="lIb-lK-WAQ"/>
+                        <constraint firstAttribute="width" constant="472" id="yQE-Kb-ebO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                    <color key="textColor" red="0.97882612879999997" green="1" blue="0.98022878980000006" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="DzT-1n-ORw"/>
+                            <exclude reference="yQE-Kb-ebO"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wG-gn-o9O">
+                    <rect key="frame" x="37" y="38" width="407" height="116"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="407" id="IRW-XM-xbm"/>
+                        <constraint firstAttribute="height" constant="116" id="Smp-iC-mO5"/>
+                    </constraints>
+                    <state key="normal" image="Ripple"/>
+                </button>
+                <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewIcon" translatesAutoresizingMaskIntoConstraints="NO" id="wIF-lA-t03">
+                    <rect key="frame" x="160" y="178" width="160" height="170"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="EYh-82-F6E"/>
+                        <constraint firstAttribute="height" constant="170" id="x2g-98-beK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.57254901960000004" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5Ov-vJ-HTf" secondAttribute="trailing" constant="39" id="5Pz-4I-Yrl"/>
+                <constraint firstItem="5Ov-vJ-HTf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="5m1-ww-lro"/>
+                <constraint firstAttribute="bottom" secondItem="5Ov-vJ-HTf" secondAttribute="bottom" constant="46" id="7uH-Ra-OA5"/>
+                <constraint firstAttribute="trailing" secondItem="5Ov-vJ-HTf" secondAttribute="trailing" constant="4" id="8w2-KF-RWb"/>
+                <constraint firstItem="wIF-lA-t03" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LPw-tM-BV6"/>
+                <constraint firstItem="5Ov-vJ-HTf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Y1J-fi-5eb"/>
+                <constraint firstItem="5Ov-vJ-HTf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="h8m-Qr-tSW"/>
+                <constraint firstItem="5Ov-vJ-HTf" firstAttribute="top" secondItem="wIF-lA-t03" secondAttribute="bottom" constant="70" id="iHb-iB-CJj"/>
+                <constraint firstItem="5Ov-vJ-HTf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="inf-l3-ohQ"/>
+                <constraint firstItem="wIF-lA-t03" firstAttribute="top" secondItem="6wG-gn-o9O" secondAttribute="bottom" constant="24" id="rHf-Sh-CNx"/>
+                <constraint firstItem="6wG-gn-o9O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="tmX-Kd-ED0"/>
+                <constraint firstItem="6wG-gn-o9O" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zmv-el-Jbe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="5Pz-4I-Yrl"/>
+                    <exclude reference="5m1-ww-lro"/>
+                    <exclude reference="8w2-KF-RWb"/>
+                    <exclude reference="Y1J-fi-5eb"/>
+                    <exclude reference="iHb-iB-CJj"/>
+                    <exclude reference="inf-l3-ohQ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NewIcon" width="180" height="180"/>
+        <image name="Ripple" width="198" height="78"/>
+    </resources>
+</document>
